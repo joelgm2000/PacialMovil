@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="IDENTIFICACION DE LA MATERIA"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/idMateriaText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="16dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="NOMBRE MATERIA"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/nombreMateriaText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="16dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CORTE"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_marginTop="15dp"
+            />
+
+        <Spinner
+            android:id="@+id/corteSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="5dp"
+            android:padding="12dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NOTA"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/notaText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="100dp"
+            android:textSize="16dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PORCENTAJE"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/porcentajeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="16dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="5dp"
+            />
+
+        <Button
+            android:id="@+id/btnNota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="AGREGAR NOTA" />
+
+        <Button
+            android:id="@+id/btnMateria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="AGREGAR NUEVA MATERIA" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LISTA:"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="238dp"
+            android:orientation="vertical"></LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>
